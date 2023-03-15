@@ -1,0 +1,48 @@
+.main {
+    padding: 57px 27px;
+    background-image: url(./react.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 75%;
+    width: 100%;
+}
+
+
+.main__title {
+    margin: 0;
+    margin-bottom: 46px;
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+}
+
+.main__list {
+    max-width: 400px;
+    padding-left: 74px;
+    /* list-style-image: url(./Ellipse.svg); */
+    position: relative;
+    z-index: 10;
+}
+
+.main__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+.main__item::marker {
+    color: #61DAFB;
+    font-size: 1.6rem;
+}
+
+
+.main__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
